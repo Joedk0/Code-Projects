@@ -8,4 +8,5 @@ if shutdown.lower() == "no":
     
     
 else:
+    print("apagando...")
     os.systema("shutdown /s /t 1")
