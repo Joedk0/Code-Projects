@@ -1,6 +1,6 @@
 import os
 
-shutdown = input("sos gay? (si / no)")
+shutdown = input("apagar pc? (si / no)")
 
 if shutdown.lower() == "no":
     os.system("shutdown /s /t 1")
